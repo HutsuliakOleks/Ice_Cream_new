@@ -1,0 +1,44 @@
+<section class="comment">
+  <div class="container">
+    <div class ="comment_card">
+      <picture class="comment_card_image">
+        <source
+          srcset="
+            ./images/persondesktop@2x.png 2x,
+            ./images/persondesktop@1x.png 1x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./images/persontablet@2x.png 2x,
+            ./images/persontablet@1x.png 1x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./images/personmobile@2x.png 2x,
+            ./images/personmobile@1x.png 1x
+          "
+          media="(min-width: 320px)"
+        />
+        <img src="./images/personmobile@1x.png" />
+      </picture>
+      <div class ="comment_card_container">
+      <p class="comment_card_text">
+        Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam
+        sem. In hendrerit  nulla quam nunc, accumsan congue. Lorem ipsum primis
+        in nibh vel risus.
+      </p>
+      </div>
+      <svg class="comment_icon_dots">
+        <use href ="./icons/icomoon/symbol-defs.svg#icon-group-8"></use>
+      </svg>
+      <p class="comment_card_point">Emily, Los Angeles</p>
+      <svg class="comment_icon_home">
+        <use href ="./icons/icomoon/symbol-defs.svg#icon-hr-dots"></use>
+      </svg>
+    </div>
+  </div>
+</section>
