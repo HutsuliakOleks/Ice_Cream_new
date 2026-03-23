@@ -4,6 +4,38 @@
     {
       "icon": {
         "paths": [
+          "M0 512c0 282.77 229.23 512 512 512s512-229.23 512-512c0-282.77-229.23-512-512-512s-512 229.23-512 512z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(255, 255, 255)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Ellipse 1"
+        ]
+      },
+      "attrs": [
+        {
+          "fill": "rgb(255, 255, 255)"
+        }
+      ],
+      "properties": {
+        "order": 52,
+        "id": 0,
+        "name": "Ellipse-1",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 4,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
           "M41.375 23.683l920.339 955.732",
           "M23.675 961.713l955.733-920.333"
         ],
@@ -56,7 +88,7 @@
         "name": "close",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 3,
       "iconIdx": 0
     },
@@ -96,7 +128,7 @@
         "name": "untitled",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 0
     },
@@ -129,7 +161,7 @@
         "name": "arrow-right2",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 1
     },
@@ -218,7 +250,7 @@
         "name": "Burger",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 2
     },
@@ -257,7 +289,7 @@
         "name": "Ellipse-7",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 3
     },
@@ -290,7 +322,7 @@
         "name": "facebook",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 4
     },
@@ -323,7 +355,7 @@
         "name": "github",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 5
     },
@@ -383,7 +415,7 @@
         "name": "Group-8",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 6
     },
@@ -409,7 +441,7 @@
         "name": "Group-36",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 7
     },
@@ -442,7 +474,7 @@
         "name": "home3",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 8
     },
@@ -502,7 +534,7 @@
         "name": "hr-dots",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 9
     },
@@ -535,7 +567,7 @@
         "name": "menu",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 10
     },
@@ -568,7 +600,7 @@
         "name": "steam2",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 11
     },
@@ -607,7 +639,7 @@
         "name": "telegram",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 12
     },
@@ -640,7 +672,7 @@
         "name": "telegram1",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 13
     },
@@ -679,7 +711,7 @@
         "name": "Vector",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 14
     },
@@ -718,7 +750,7 @@
         "name": "Vector-1",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 15
     },
@@ -767,7 +799,7 @@
         "name": "Vector-1-1",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 16
     }

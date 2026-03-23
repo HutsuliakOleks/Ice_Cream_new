@@ -275,6 +275,13 @@ font-weight: 700;
 font-size: 16px;
 text-align: center;
 border: none;
+    column-gap: 13.17px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    @media screen and (min-width: 768px) {
+        column-gap: 13.62px;
+    }
 }
 .comment_button_list_item:nth-child(1) .comment_button_list_item_button {
     background: #d41342;
@@ -295,6 +302,12 @@ border: none;
     @media screen and (min-width: 1280px) {
     width: 180px;
 }
+}
+.comment_button_list_item:nth-child(1) .comment_button_list_item_button_icon {
+    stroke: var(--color1, #ffffff);
+}
+.comment_button_list_item:nth-child(2) .comment_button_list_item_button_icon {
+    stroke: var(--color3, #d41443);
 }
 .comment_icon_dots {
     width: 32px;

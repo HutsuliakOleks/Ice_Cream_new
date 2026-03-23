@@ -145,9 +145,16 @@ color: #d41443;
 border: none;
 background: #fff;
 margin-bottom: 39px;
+    column-gap: 13.62px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 @media screen and (min-width: 768px) {
     margin-bottom: 66px;
 }
+}
+.tradition_card_button_icon {
+    stroke: var(--color1, #d41443);
 }
 .tradition_list {
     display: flex;

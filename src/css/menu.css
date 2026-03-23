@@ -39,6 +39,7 @@
     }
 }
 .menu_button {
+    display: block;
     font-family: var(--font-family);
 font-weight: 700;
 font-size: 16px;
@@ -51,6 +52,15 @@ color: #d41443;
     border-radius: 22px;
     border :none;
     background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 15.77px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    @media screen and (min-width: 768px) {
+        column-gap: 14.04px;
+    }
 }
 .menu_navigation_item {
     padding-top: 13px;

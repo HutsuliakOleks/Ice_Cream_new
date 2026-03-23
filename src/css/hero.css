@@ -196,13 +196,41 @@ background-color: #fff;
     flex-direction: column;
     display: flex;
     row-gap: 13px;
-    margin-bottom: 72px;
+    margin-bottom: 56px;
     @media screen and (min-width: 1280px) {
-        margin-bottom: 120px;
+        margin-bottom: 92px;
     }
 }
 .hero_number_list_item {
     text-align: right;
+}
+.hero_number_list_item_icon {
+    position: absolute;
+    z-index: -1;
+    @media screen and (min-width: 768px) {
+        width: 16px;
+        height: 16px;
+    }
+    @media screen and (min-width: 1280px) {
+        width: 30px;
+        height: 30px;
+    }
+}
+.hero_number_list_item:nth-child(1) .hero_number_list_item_icon {
+    top: 0;
+    right: -8px;
+    @media screen and (min-width: 1280px) {
+        top: -5px;
+    right: -14px;
+    }
+}
+.hero_number_list_item:nth-child(2) .hero_number_list_item_icon {
+    top: 62px;
+    right: -8px;
+    @media screen and (min-width: 1280px) {
+        top: 92px;
+    right: -14px;
+    }
 }
 .hero_number_list_item_number {
     
