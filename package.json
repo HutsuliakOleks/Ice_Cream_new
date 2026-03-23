@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://hutsuliakoleks.github.io/Ice-Cream/",
+  "homepage": "https://hutsuliakoleks.github.io/Ice_Cream_new/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Ice_Cream/", 
+    "build": "vite build --base=/Ice_Cream_new/", 
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
