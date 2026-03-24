@@ -6,6 +6,8 @@
     background-position-y: bottom, 0px;
     padding-top: 110px;
     padding-bottom: 160px;
+    margin-inline: auto;
+    max-width: 320px;
     @media screen and (min-device-pixel-ratio: 1),
     (min-resolution: 960dpi),
     (min-resolution: 2dppx),
@@ -29,6 +31,7 @@
     height: 312px;
     z-index: -1;
     padding-top: 25px;
+    max-width: 768px;
     @media screen and (min-device-pixel-ratio: 1),
     (min-resolution: 960dpi),
     (min-resolution: 2dppx),
@@ -46,13 +49,14 @@
     @media screen and (min-width: 1280px) {
         background-image: url("../images/icecreamdesktop@1x.png"), url("../images/circledesktop@1x.png");
         background-repeat: no-repeat;
-    background-position-x: 625px, 475px;
+    background-position-x: 575px, 425px;
     background-position-y: bottom, -25px;
     position: relative;
     bottom: 0px;
     height: 577px;
     z-index: -1;
     padding-top: 74px;
+    max-width: 1280px;
     @media screen and (min-device-pixel-ratio: 1),
     (min-resolution: 960dpi),
     (min-resolution: 2dppx),
@@ -189,7 +193,7 @@ background-color: #fff;
     }
     @media screen and (min-width: 1280px) {
         top: 74px;
-        right: 97px;
+        right: 145px;
     }
 }
 .hero_number_list {

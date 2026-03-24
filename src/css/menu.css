@@ -10,6 +10,7 @@
     transform: translateY(100%) translateX(768px);
     transition: transform 250ms ease-in-out;
     display: block;
+    margin-inline: auto;
     @media screen and (min-width: 768px) {
         transform: translateX(768px);
         width: 280px;

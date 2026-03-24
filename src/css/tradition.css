@@ -6,6 +6,8 @@
     background-position-y: 600px;
     background-repeat: no-repeat;
         background-size: 320px;
+        max-width: 320px;
+            margin-inline: auto;
         @media screen and (min-device-pixel-ratio: 1),
     (min-resolution: 960dpi),
     (min-resolution: 2dppx),
@@ -25,11 +27,13 @@
         padding-top: 130px;
         padding-bottom: 246px;
         background-image: none;
+            max-width: 768px;
     }
     @media screen and (min-width: 1280px) {
         padding-top: 125px;
         padding-bottom: 310px;
         background-image: url("../images/milkthemedesktop@1x.png");
+            max-width: 1280px;
         @media screen and (min-device-pixel-ratio: 1),
     (min-resolution: 960dpi),
     (min-resolution: 2dppx),
@@ -186,10 +190,12 @@ color: #d41443;
 margin-top: 16px;
 margin-bottom: 16px;
 @media screen and (min-width: 768px) {
+    margin-top: 36px;
         margin-bottom: 13px;
         font-size: 48px;
     }
     @media screen and (min-width: 1280px) {
+        margin-top: 40px;
         font-size: 58px;
     }
 }

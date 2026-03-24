@@ -2,13 +2,17 @@
     padding-top: 154px;
     padding-bottom: 84px;
     width: 100%;
+    max-width: 320px;
+    margin-inline: auto;
     @media screen and (min-width: 768px) {
         padding-top: 279px;
         padding-bottom: 197px;
+            max-width: 768px;
     }
     @media screen and (min-width: 1280px) {
         padding-top: 382px;
         padding-bottom: 234px;
+            max-width: 1280px;
     }
 }
 .comment_card {
@@ -103,15 +107,18 @@ color: #000;
     width: 100%;
     position: relative;
     top: -104px;
+    max-width: 320px;
     @media screen and (min-width: 768px) {
         flex-direction: row;
         column-gap: 20px;
         top: -78px;
+        max-width: 768px;
     }
     @media screen and (min-width: 1280px) {
         flex-direction: row;
         column-gap: 31px;
         top: -102px;
+        max-width: 1280px;
     }
 }
 .comment_list_item {

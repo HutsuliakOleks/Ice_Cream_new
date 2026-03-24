@@ -2,13 +2,16 @@
     padding-top: 121px;
     padding-bottom: 98px;
     margin-inline: auto;
+    max-width: 320px;
     @media screen and (min-width: 768px) {
         padding-top: 122px;
         padding-bottom: 112px;
+            max-width: 768px;
     }
     @media screen and (min-width: 1280px) {
         padding-top: 127px;
         padding-bottom: 119px;
+            max-width: 1280px;
     }
 }
 .products_title {

@@ -4,6 +4,8 @@
     padding-bottom: 27px;
     background-color: #ffb8ca;
     height: 476px;
+    margin-inline: auto;
+    max-width: 320px;
     @media screen and (min-width: 768px) {
         padding-top: 37px;
         height: 399px;
@@ -13,6 +15,7 @@
     background-repeat: no-repeat;
     background-position-x: 375px, 300px;
     background-position-y: 62px, 42px;
+        max-width: 768px;
     @media screen and (min-device-pixel-ratio: 1),
     (min-resolution: 960dpi),
     (min-resolution: 2dppx),
@@ -34,8 +37,9 @@
         z-index: 1;
         background-image: url("../images/circledesktop@1x.png");
     background-repeat: no-repeat;
-    background-position-x: 475px, 300px;
+    background-position-x: 425px, 300px;
     background-position-y: 62px, 52px;
+    max-width: 1280px;
     }
     @media screen and (min-device-pixel-ratio: 1),
     (min-resolution: 960dpi),
@@ -50,6 +54,10 @@
     background-image: url(../images/circledesktop@2x.png);
     background-size: 538px;
   }
+}
+.logo {
+    width: 199px;
+    height: 50px;
 }
 .header_position {
     display: flex;
@@ -111,5 +119,5 @@
 }
 }
 .header_background {
-    background-color: #ffb8ca;
+    background-color: transparent;
 }
