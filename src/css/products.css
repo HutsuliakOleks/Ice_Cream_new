@@ -93,6 +93,33 @@ margin-top: 113px;
         top: -210px;
     }
 }
+.products_list_item:nth-child(1) .product_list_item_image {
+    top: -113px;
+    @media screen and (min-width: 768px) {
+        top: -106.31px;
+    }
+    @media screen and (min-width: 1280px) {
+        top: -210px;
+    }
+}
+.products_list_item:nth-child(2) .product_list_item_image {
+    top: -113px;
+    @media screen and (min-width: 768px) {
+        top: -113px;
+    }
+    @media screen and (min-width: 1280px) {
+        top: -208.06px;
+    }
+}
+.products_list_item:nth-child(3) .product_list_item_image {
+    top: -113px;
+    @media screen and (min-width: 768px) {
+        top: -104.4px;
+    }
+    @media screen and (min-width: 1280px) {
+        top: -210px;
+    }
+}
 .products_list_item_title {
     font-family: var(--second-family);
 font-weight: 400;
@@ -102,6 +129,7 @@ text-transform: uppercase;
 text-align: center;
 color: #fff;
 margin-top: -91px;
+margin-bottom: 30px;
 @media screen and (min-width: 768px) {
     margin-top: -76px;
 }
@@ -109,6 +137,36 @@ margin-top: -91px;
     font-size: 30px;
     margin-top: -163px;
 }
+.products_list_item_points {
+    margin-bottom: 30px;
+}
+}
+.products_list_item:nth-child(1) .products_list_item_title {
+    margin-top: -91px;
+    @media screen and (min-width: 768px) {
+        margin-top: -68.31px;
+    }
+    @media screen and (min-width: 1280px) {
+        margin-top: -163px;
+    }
+}
+.products_list_item:nth-child(2) .products_list_item_title {
+    margin-top: -91px;
+    @media screen and (min-width: 768px) {
+        margin-top: -76px;
+    }
+    @media screen and (min-width: 1280px) {
+        margin-top: -161.06px;
+    }
+}
+.products_list_item:nth-child(3) .products_list_item_title {
+    margin-top: -91px;
+    @media screen and (min-width: 768px) {
+        margin-top: -67.4px;
+    }
+    @media screen and (min-width: 1280px) {
+        margin-top: -163px;
+    }
 }
 .products_list_item_text {
     font-family: var(--font-family);
@@ -140,4 +198,7 @@ height: 124px;
 .products_list_item_button {
     background-color: transparent;
     border: none;
+}
+.products_list_item .products_list_item_points {
+    margin-bottom: 30px;
 }

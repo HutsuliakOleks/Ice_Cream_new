@@ -17,17 +17,22 @@
     background-position-y: 62px, 42px;
         max-width: 768px;
     @media screen and (min-device-pixel-ratio: 1),
-    (min-resolution: 960dpi),
+    (min-resolution: 1920dpi),
     (min-resolution: 2dppx),
     (min-width: 768px) {
     background-image: url("../images/icecreamtablet@1x.png"), url(../images/circletablet@1x.png);
+    background-size: 144px, 144px;
+        background-repeat: no-repeat;
   }
   @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 1920dpi),
+    (min-resolution: 3840dpi),
     (min-resolution: 4dppx),
     (min-width: 768px) {
     background-image: url("../images/icecreamtablet@2x.png"), url(../images/circletablet@2x.png);
     background-size: 144px, 324px;
+    background-position-x: 375px, 300px;
+    background-position-y: 62px, 42px;
+        background-repeat: no-repeat;
   }
     }
     @media screen and (min-width: 1280px) {
@@ -35,24 +40,32 @@
         height: 665px;
         position: relative;
         z-index: 1;
-        background-image: url("../images/circledesktop@1x.png");
+        background-image: url(/Ice_Cream/images/icecreamdesktop@1x.png), url("../images/circledesktop@1x.png");
     background-repeat: no-repeat;
     background-position-x: 425px, 300px;
     background-position-y: 62px, 52px;
+        background-repeat: no-repeat;
     max-width: 1280px;
     }
     @media screen and (min-device-pixel-ratio: 1),
     (min-resolution: 960dpi),
     (min-resolution: 2dppx),
     (min-width: 1280px) {
-    background-image: url(../images/circledesktop@1x.png);
+    background-image: url(/Ice_Cream/images/icecreamdesktop@1x.png), url(../images/circledesktop@1x.png);
+    background-size: 144px, 324px;
+        background-position-x: 375px, 300px;
+        background-position-y: 62px, 42px;
+            background-repeat: no-repeat;
   }
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 1920dpi),
     (min-resolution: 4dppx),
     (min-width: 1280px) {
-    background-image: url(../images/circledesktop@2x.png);
+    background-image: url(/Ice_Cream/images/icecreamdesktop@2x.png), url(../images/circledesktop@2x.png);
     background-size: 538px;
+            background-position-x: 425px;
+        background-position-y: 100px, 62px;
+            background-repeat: no-repeat;
   }
 }
 .logo {

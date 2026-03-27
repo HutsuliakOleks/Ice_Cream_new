@@ -4,6 +4,49 @@
     {
       "icon": {
         "paths": [
+          "M102.4 102.4l438.396 409.6-438.396 409.6"
+        ],
+        "attrs": [
+          {
+            "fill": "none",
+            "stroke": "rgb(255, 255, 255)",
+            "strokeLinejoin": "round",
+            "strokeLinecap": "round",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 204.8
+          }
+        ],
+        "width": 717,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Vector 1"
+        ]
+      },
+      "attrs": [
+        {
+          "fill": "none",
+          "stroke": "rgb(255, 255, 255)",
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 204.8
+        }
+      ],
+      "properties": {
+        "order": 53,
+        "id": 0,
+        "name": "Vector-1-2",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 5,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
           "M0 512c0 282.77 229.23 512 512 512s512-229.23 512-512c0-282.77-229.23-512-512-512s-512 229.23-512 512z"
         ],
         "attrs": [
@@ -29,7 +72,7 @@
         "name": "Ellipse-1",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 4,
       "iconIdx": 1
     },
@@ -88,7 +131,7 @@
         "name": "close",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 3,
       "iconIdx": 0
     },
@@ -128,7 +171,7 @@
         "name": "untitled",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 2,
       "iconIdx": 0
     },
@@ -161,7 +204,7 @@
         "name": "arrow-right2",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 2,
       "iconIdx": 1
     },
@@ -250,7 +293,7 @@
         "name": "Burger",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 2,
       "iconIdx": 2
     },
@@ -289,7 +332,7 @@
         "name": "Ellipse-7",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 2,
       "iconIdx": 3
     },
@@ -322,7 +365,7 @@
         "name": "facebook",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 2,
       "iconIdx": 4
     },
@@ -355,7 +398,7 @@
         "name": "github",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 2,
       "iconIdx": 5
     },
@@ -415,7 +458,7 @@
         "name": "Group-8",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 2,
       "iconIdx": 6
     },
@@ -441,7 +484,7 @@
         "name": "Group-36",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 2,
       "iconIdx": 7
     },
@@ -474,7 +517,7 @@
         "name": "home3",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 2,
       "iconIdx": 8
     },
@@ -534,7 +577,7 @@
         "name": "hr-dots",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 2,
       "iconIdx": 9
     },
@@ -567,7 +610,7 @@
         "name": "menu",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 2,
       "iconIdx": 10
     },
@@ -600,7 +643,7 @@
         "name": "steam2",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 2,
       "iconIdx": 11
     },
@@ -639,7 +682,7 @@
         "name": "telegram",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 2,
       "iconIdx": 12
     },
@@ -672,7 +715,7 @@
         "name": "telegram1",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 2,
       "iconIdx": 13
     },
@@ -711,7 +754,7 @@
         "name": "Vector",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 2,
       "iconIdx": 14
     },
@@ -747,10 +790,10 @@
       "properties": {
         "order": 34,
         "id": 14,
-        "name": "Vector-1",
+        "name": "Vector-11",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 2,
       "iconIdx": 15
     },
@@ -799,7 +842,7 @@
         "name": "Vector-1-1",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 3,
       "setId": 2,
       "iconIdx": 16
     }

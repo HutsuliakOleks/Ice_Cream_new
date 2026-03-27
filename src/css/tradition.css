@@ -1,6 +1,5 @@
 .tradition {
     padding-top: 125px;
-    padding-bottom: 145px;
     background-color: #fff5f6;
     background-image: url("../images/milkthememobile@1x.png");
     background-position-y: 600px;
@@ -25,13 +24,11 @@
     }
     @media screen and (min-width: 768px) {
         padding-top: 130px;
-        padding-bottom: 246px;
         background-image: none;
             max-width: 768px;
     }
     @media screen and (min-width: 1280px) {
         padding-top: 125px;
-        padding-bottom: 310px;
         background-image: url("../images/milkthemedesktop@1x.png");
             max-width: 1280px;
         @media screen and (min-device-pixel-ratio: 1),
@@ -216,11 +213,18 @@ color: #000;
 }
 .tradition_image {
     position: relative;
-    top: 241px;
+    display: block;
+    width: 320px;
+    top: 73px;
+    right: 35px;
     @media screen and (min-width: 768px) {
-        top: 384px;
+        width: 768px;
+        top: 159px;
+        right: 49px;
     }
     @media screen and (min-width: 1280px) {
-        top: 515px;
+        width: 1280px;
+        top: 258px;
+        right: 130px;
     }
 }

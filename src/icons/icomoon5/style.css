@@ -15,6 +15,10 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-Vector-1-2 {
+  width: 0.7001953125em;
+}
+
 .icon-untitled {
   width: 1.349609375em;
 }
