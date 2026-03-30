@@ -1,7 +1,7 @@
 .tradition {
   max-width: 320px;
-  margin-inline: auto;
   padding-top: 125px;
+  margin: 0 auto;
   background-color: #fff5f6;
   background-image: url('../images/milkthememobile@1x.png');
   background-position-y: 600px;
@@ -51,7 +51,6 @@
 }
 .tradition_title {
   font-family: var(--second-family);
-  font-weight: 400;
   font-size: 18px;
   text-transform: uppercase;
   text-align: center;
@@ -65,7 +64,6 @@
 }
 .tradition_big_title {
   font-family: var(--second-family);
-  font-weight: 400;
   font-size: 34px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -86,7 +84,6 @@
   }
 }
 .tradition_card_container {
-  display: block;
   @media screen and (min-width: 768px) {
     display: flex;
     column-gap: 17px;
@@ -97,7 +94,6 @@
   }
 }
 .tradition_card_area_container {
-  display: block;
   @media screen and (min-width: 768px) {
     width: 340px;
     margin-top: 50px;
@@ -133,15 +129,15 @@
   }
 }
 .tradition_card_button {
-  width: 176px;
-  height: 44px;
-  border: none;
-  border-radius: 22px;
-  margin-bottom: 39px;
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 13.62px;
+  column-gap: 14px;
+  width: 176px;
+  height: 44px;
+  margin-bottom: 39px;
+  border: none;
+  border-radius: 22px;
   font-weight: 700;
   font-size: 16px;
   text-align: center;
@@ -176,13 +172,12 @@
   }
 }
 .tradition_list_item_number {
+  margin-top: 16px;
+  margin-bottom: 16px;
   font-family: var(--second-family);
-  font-weight: 400;
   font-size: 36px;
   letter-spacing: 0.04em;
   color: #d41443;
-  margin-top: 16px;
-  margin-bottom: 16px;
   @media screen and (min-width: 768px) {
     margin-top: 36px;
     margin-bottom: 13px;
@@ -209,18 +204,18 @@
 }
 .tradition_image {
   position: relative;
+  top: 58px;
+  right: 0px;
   width: 320px;
-  display: block;
-  top: 73px;
-  right: 35px;
+  margin: 0 auto;
   @media screen and (min-width: 768px) {
+    top: 138px;
+    right: 0px;
     width: 768px;
-    top: 159px;
-    right: 49px;
   }
   @media screen and (min-width: 1280px) {
+    top: 204px;
+    right: 0px;
     width: 1280px;
-    top: 258px;
-    right: 130px;
   }
 }

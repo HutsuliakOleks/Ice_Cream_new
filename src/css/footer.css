@@ -1,10 +1,10 @@
 .footer {
   width: 100%;
   max-width: 320px;
+  margin: 0 auto;
   background-image: url('../images/pinkbackground.png');
   background-position-y: bottom;
   background-size: 1px;
-  margin-inline: auto;
   @media screen and (min-width: 768px) {
     max-width: 768px;
   }
@@ -14,7 +14,6 @@
 }
 .footer_title {
   font-family: var(--second-family);
-  font-weight: 400;
   font-size: 18px;
   text-transform: uppercase;
   color: #ffa5ba;
@@ -56,7 +55,7 @@
 .footer_list_item {
   width: 32px;
   height: 32px;
-  border-radius: 100%;
+  border-radius: 50%;
   background-color: #fea5bb;
   @media screen and (min-width: 768px) {
     width: 34px;
@@ -65,10 +64,10 @@
 }
 .footer_list_item_link_icon {
   position: relative;
-  width: 32px;
-  height: 32px;
   bottom: 1px;
   right: 1px;
+  width: 32px;
+  height: 32px;
   @media screen and (min-width: 768px) {
     width: 34px;
     height: 34px;
@@ -92,6 +91,7 @@
   color: #d41443;
 }
 .footer_copyright {
+  display: block;
   width: 150px;
   padding-top: 22px;
   padding-bottom: 29px;
@@ -100,36 +100,33 @@
   line-height: 1.52;
   text-align: center;
   color: #907e82;
-  display: block;
   background-color: #fff5f6;
   @media screen and (min-width: 768px) {
-    display: flex;
     width: 280px;
   }
   @media screen and (min-width: 1280px) {
     width: 300px;
-    margin: 0 auto;
     line-height: 1.86;
     letter-spacing: 0.02em;
   }
 }
 .footer_position {
-  border-bottom: 1px solid #e1e1e1;
   padding-bottom: 43px;
+  border-bottom: 1px solid #e1e1e1;
   @media screen and (min-width: 768px) {
     display: flex;
-    border-bottom: 1px solid #e1e1e1;
-    padding-bottom: 91px;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 91px;
+    border-bottom: 1px solid #e1e1e1;
   }
   @media screen and (min-width: 1280px) {
     display: flex;
-    width: 1026px;
-    border-bottom: 1px solid #e1e1e1;
-    padding-bottom: 97px;
     justify-content: space-between;
     align-items: center;
+    width: 1026px;
+    padding-bottom: 97px;
+    border-bottom: 1px solid #e1e1e1;
   }
 }
 .footer_link_container {

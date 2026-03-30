@@ -1,14 +1,14 @@
 .hero {
   max-width: 320px;
+  padding-top: 110px;
+  padding-bottom: 160px;
+  margin: 0 auto;
   background-color: #ffb8ca;
   background-image:
     url('../images/icecreammobile@1x.png'), url('../images/circlemobile@1x.png');
   background-repeat: no-repeat;
   background-position-x: 125px, 50px;
   background-position-y: bottom, 0px;
-  padding-top: 110px;
-  padding-bottom: 160px;
-  margin-inline: auto;
   @media screen and (min-device-pixel-ratio: 1),
     (min-resolution: 960dpi),
     (min-resolution: 2dppx),
@@ -27,6 +27,12 @@
     background-size: 171px, 270px;
   }
   @media screen and (min-width: 768px) {
+    position: relative;
+    z-index: -1;
+    bottom: 0;
+    max-width: 768px;
+    height: 312px;
+    padding-top: 25px;
     background-image:
       url('../images/icecreamtablet@1x.png'),
       url('../images/circletablet@1x.png');
@@ -35,12 +41,6 @@
     background-position-y:
       bottom,
       -45px;
-    position: relative;
-    bottom: 0px;
-    height: 312px;
-    z-index: -1;
-    padding-top: 25px;
-    max-width: 768px;
     @media screen and (min-device-pixel-ratio: 1),
       (min-resolution: 960dpi),
       (min-resolution: 2dppx),
@@ -60,6 +60,9 @@
     }
   }
   @media screen and (min-width: 1280px) {
+    height: 577px;
+    padding-top: 74px;
+    max-width: 1280px;
     background-image:
       url('../images/icecreamdesktop@1x.png'),
       url('../images/circledesktop@1x.png');
@@ -68,12 +71,6 @@
     background-position-y:
       bottom,
       -25px;
-    position: relative;
-    bottom: 0px;
-    height: 577px;
-    z-index: -1;
-    padding-top: 74px;
-    max-width: 1280px;
     @media screen and (min-device-pixel-ratio: 1),
       (min-resolution: 960dpi),
       (min-resolution: 2dppx),
@@ -94,24 +91,23 @@
   }
 }
 .hero_main_title {
+  width: 218px;
+  height: 106px;
+  margin-bottom: 19px;
   font-family: var(--second-family);
-  font-weight: 400;
   font-size: 26px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #fff;
-  width: 218px;
-  height: 106px;
-  margin-bottom: 19px;
   @media screen and (min-width: 768px) {
-    font-size: 22px;
     width: 162px;
     height: 80px;
+    font-size: 22px;
   }
   @media screen and (min-width: 1280px) {
-    font-size: 38px;
     width: 277px;
     height: 137px;
+    font-size: 38px;
   }
 }
 .hero_main_title span {
@@ -121,7 +117,6 @@
   @media screen and (min-width: 768px) {
     font-size: 34px;
     line-height: 0.9;
-    color: #d41443;
   }
   @media screen and (min-width: 1280px) {
     font-size: 58px;
@@ -136,21 +131,17 @@
   }
 }
 .hero_main_buttons_button {
-  font-family: var(--font-family);
-  font-weight: 400;
   font-size: 8px;
   text-align: center;
   color: #fff;
   border-radius: 20px;
-  align-items: center;
-  justify-content: center;
   border: none;
   @media screen and (min-width: 1280px) {
     font-size: 14px;
   }
 }
 .hero_main_buttons_button:nth-child(1) {
-  width: 61.2px;
+  width: 61px;
   height: 24px;
   background-color: #d41443;
   color: #fff;
@@ -160,7 +151,7 @@
   }
 }
 .hero_main_buttons_button:nth-child(2) {
-  width: 82.8px;
+  width: 83px;
   height: 24px;
   background-color: #fff;
   color: #d41443;
@@ -180,10 +171,10 @@
   }
 }
 .hero_bioeco_container {
-  width: 115px;
   display: flex;
   flex-direction: column;
   justify-content: end;
+  width: 115px;
   @media screen and (min-width: 1280px) {
     width: 200px;
   }
@@ -197,20 +188,20 @@
   }
 }
 .hero_bioeco_button {
-  border: none;
-  background-color: transparent;
   width: 30px;
   height: 30px;
+  border: none;
+  background-color: transparent;
 }
 .hero_number {
   display: none;
   @media screen and (min-width: 768px) {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
     position: absolute;
     top: 11px;
     right: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
   }
   @media screen and (min-width: 1280px) {
     top: 74px;
@@ -218,8 +209,8 @@
   }
 }
 .hero_number_list {
-  flex-direction: column;
   display: flex;
+  flex-direction: column;
   row-gap: 13px;
   margin-bottom: 56px;
   @media screen and (min-width: 1280px) {
@@ -242,6 +233,7 @@
   }
 }
 .hero_number_list_item:nth-child(1) .hero_number_list_item_icon {
+  position: absolute;
   top: 0;
   right: -8px;
   @media screen and (min-width: 1280px) {
@@ -250,6 +242,7 @@
   }
 }
 .hero_number_list_item:nth-child(2) .hero_number_list_item_icon {
+  position: absolute;
   top: 62px;
   right: -8px;
   @media screen and (min-width: 1280px) {
