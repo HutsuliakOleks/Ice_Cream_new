@@ -1,119 +1,128 @@
 .header {
-    width: 100%;
-    padding-top: 6px;
-    padding-bottom: 27px;
-    background-color: #ffb8ca;
-    height: 476px;
-    margin-inline: auto;
-    max-width: 320px;
-    @media screen and (min-width: 768px) {
-        padding-top: 37px;
-        height: 399px;
-        position: relative;
+  width: 100%;
+  height: 476px;
+  padding-top: 6px;
+  padding-bottom: 27px;
+  background-color: #ffb8ca;
+  margin-inline: auto;
+  max-width: 320px;
+  @media screen and (min-width: 768px) {
+    padding-top: 37px;
+    height: 399px;
+    position: relative;
     z-index: 1;
-    background-image: url("../images/icecreamtablet@1x.png"), url(../images/circletablet@1x.png);
+    background-image:
+      url('../images/icecreamtablet@1x.png'), url(../images/circletablet@1x.png);
     background-repeat: no-repeat;
     background-position-x: 375px, 300px;
     background-position-y: 62px, 42px;
-        max-width: 768px;
+    max-width: 768px;
     @media screen and (min-device-pixel-ratio: 1),
-    (min-resolution: 1920dpi),
-    (min-resolution: 2dppx),
-    (min-width: 768px) {
-    background-image: url("../images/icecreamtablet@1x.png"), url(../images/circletablet@1x.png);
-    background-size: 144px, 144px;
-        background-repeat: no-repeat;
-  }
-  @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 3840dpi),
-    (min-resolution: 4dppx),
-    (min-width: 768px) {
-    background-image: url("../images/icecreamtablet@2x.png"), url(../images/circletablet@2x.png);
-    background-size: 144px, 324px;
-    background-position-x: 375px, 300px;
-    background-position-y: 62px, 42px;
-        background-repeat: no-repeat;
-  }
+      (min-resolution: 1920dpi),
+      (min-resolution: 2dppx),
+      (min-width: 768px) {
+      background-image:
+        url('../images/icecreamtablet@1x.png'),
+        url(../images/circletablet@1x.png);
+      background-size: 144px, 144px;
+      background-repeat: no-repeat;
     }
-    @media screen and (min-width: 1280px) {
-        padding-top: 38px;
-        height: 665px;
-        position: relative;
-        z-index: 1;
-        background-image: url(/Ice_Cream/images/icecreamdesktop@1x.png), url("../images/circledesktop@1x.png");
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 3840dpi),
+      (min-resolution: 4dppx),
+      (min-width: 768px) {
+      background-image:
+        url('../images/icecreamtablet@2x.png'),
+        url(../images/circletablet@2x.png);
+      background-size: 144px, 324px;
+      background-position-x: 375px, 300px;
+      background-position-y: 62px, 42px;
+      background-repeat: no-repeat;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    height: 665px;
+    padding-top: 38px;
+    position: relative;
+    z-index: 1;
+    background-image:
+      url(/Ice_Cream/images/icecreamdesktop@1x.png),
+      url('../images/circledesktop@1x.png');
     background-repeat: no-repeat;
     background-position-x: 425px, 300px;
     background-position-y: 62px, 52px;
-        background-repeat: no-repeat;
     max-width: 1280px;
-    }
-    @media screen and (min-device-pixel-ratio: 1),
+  }
+  @media screen and (min-device-pixel-ratio: 1),
     (min-resolution: 960dpi),
     (min-resolution: 2dppx),
     (min-width: 1280px) {
-    background-image: url(/Ice_Cream/images/icecreamdesktop@1x.png), url(../images/circledesktop@1x.png);
+    background-image:
+      url(/Ice_Cream/images/icecreamdesktop@1x.png),
+      url(../images/circledesktop@1x.png);
     background-size: 144px, 324px;
-        background-position-x: 375px, 300px;
-        background-position-y: 62px, 42px;
-            background-repeat: no-repeat;
+    background-position-x: 375px, 300px;
+    background-position-y: 62px, 42px;
+    background-repeat: no-repeat;
   }
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 1920dpi),
     (min-resolution: 4dppx),
     (min-width: 1280px) {
-    background-image: url(/Ice_Cream/images/icecreamdesktop@2x.png), url(../images/circledesktop@2x.png);
+    background-image:
+      url(/Ice_Cream/images/icecreamdesktop@2x.png),
+      url(../images/circledesktop@2x.png);
     background-size: 538px;
-            background-position-x: 425px;
-        background-position-y: 100px, 62px;
-            background-repeat: no-repeat;
+    background-position-x: 425px;
+    background-position-y: 100px, 62px;
+    background-repeat: no-repeat;
   }
 }
 .logo {
-    width: 199px;
-    height: 50px;
+  width: 199px;
+  height: 50px;
 }
 .header_position {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .navigation_list {
-    display: none;
-    @media screen and (min-width: 1280px) {
-        display: flex;
-        column-gap: 35px;
-    }
+  display: none;
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    column-gap: 35px;
+  }
 }
 .navigation_link {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 16px;
-    color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
 }
 .navigation_link:hover {
-    color: #d41443;
+  color: #d41443;
 }
 .burger_menu {
-    border :none;
-    background-color: transparent;
-    width: 20px;
-    height: 12px;
-    @media screen and (min-width:768px) {
-        margin-left: auto;
-    }
-    @media screen and (min-width: 1280px) {
-        display: none;
-    }
+  width: 20px;
+  height: 12px;
+  border: none;
+  background-color: transparent;
+  @media screen and (min-width: 768px) {
+    margin-left: auto;
+  }
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
 }
 .header_button {
-    display: none;
-    @media screen and (min-width: 768px) {
-    border-radius: 22px;
+  display: none;
+  @media screen and (min-width: 768px) {
     width: 159px;
     height: 44px;
+    display: flex;
+    border-radius: 22px;
     background-color: white;
     border: none;
-    font-family: var(--font-family);
     font-weight: 700;
     font-size: 16px;
     text-align: center;
@@ -121,16 +130,15 @@
     margin-left: 30px;
     column-gap: 12px;
     justify-content: center;
-    display: flex;
     align-items: center;
     @media screen and (min-width: 1280px) {
-        margin-left: 0;
+      margin-left: 0;
     }
-}
-.header_button_icon {
+  }
+  .header_button_icon {
     stroke: var(--color1, #d41443);
-}
+  }
 }
 .header_background {
-    background-color: transparent;
+  background-color: transparent;
 }

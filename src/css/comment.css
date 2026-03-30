@@ -1,99 +1,100 @@
 .comment {
-    padding-top: 154px;
-    padding-bottom: 84px;
-    width: 100%;
-    max-width: 320px;
-    margin-inline: auto;
-    @media screen and (min-width: 768px) {
-        padding-top: 279px;
-        padding-bottom: 197px;
-            max-width: 768px;
-    }
-    @media screen and (min-width: 1280px) {
-        padding-top: 382px;
-        padding-bottom: 234px;
-            max-width: 1280px;
-    }
+  padding-top: 154px;
+  padding-bottom: 84px;
+  max-width: 320px;
+  margin-inline: auto;
+  @media screen and (min-width: 768px) {
+    padding-top: 279px;
+    padding-bottom: 197px;
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 382px;
+    padding-bottom: 234px;
+    max-width: 1280px;
+  }
 }
 .comment_card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    @media screen and (min-width: 768px) {
-    }
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+  }
 }
 .comment_card_image {
-    margin-bottom: 29px;
-    @media screen and (min-width: 768px) {
-        margin-bottom: 19px;
-    }
-    @media screen and (min-width: 1280px) {
-        margin-bottom: 15px;
-    }
+  margin-bottom: 29px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 19px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 15px;
+  }
 }
 .comment_card_container {
-    display: flex;
-    width: 280px;
-    height: 308px;
-    justify-content: center;
-    align-items: center;
-    background-color: #fafafa;
-    background-image: url("../images/defise.png"), url("../images/group36.png");
-    background-repeat: no-repeat;
-    background-position-x: 20px, 48px;
-    background-position-y: 20px, 57px;
-    margin-bottom: 30px;
-    @media screen and (min-width: 768px) {
-        width: 620px;
-        height: 164px;
-        background-image: url("../images/defise.png");
-        background-position-x: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 308px;
+  background-color: #fafafa;
+  background-image: url('../images/defise.png'), url('../images/group36.png');
+  background-repeat: no-repeat;
+  background-position-x: 20px, 48px;
+  background-position-y: 20px, 57px;
+  margin-bottom: 30px;
+  @media screen and (min-width: 768px) {
+    width: 620px;
+    height: 164px;
+    background-image: url('../images/defise.png');
+    background-position-x: 40px;
     background-position-y: 30px;
-    }
-    @media screen and (min-width: 1280px) {
-        width: 926px;
-        height: 138px;
-        background-image: url("../images/defise.png");
-        background-position-x: 50px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 926px;
+    height: 138px;
+    background-image: url('../images/defise.png');
+    background-position-x: 50px;
     background-position-y: 32px;
-    }
+  }
 }
 .comment_card_text {
-    font-family: var(--font-family);
-font-weight: 500;
-font-size: 12px;
-line-height: 2.55;
-text-align: center;
-color: #000;
-width: 157px;
-stroke-width: 1px;
-stroke: #e1e1e1;
-@media screen and (min-width: 768px) {
-    font-size: 14px;
-    line-height: 2.16;
+  width: 157px;
+  stroke-width: 1px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 2.55;
+  text-align: center;
+  color: #000;
+  stroke: #e1e1e1;
+  @media screen and (min-width: 768px) {
     width: 460px;
-    background-image: url("../images/linetablet.svg"), url("../images/linetablet.svg"), url("../images/linetablet.svg");
+    line-height: 2.16;
+    background-image:
+      url('../images/linetablet.svg'), url('../images/linetablet.svg'),
+      url('../images/linetablet.svg');
     background-repeat: no-repeat;
     background-position-y: 30px, 60px, 90px;
-}
-@media screen and (min-width: 1280px) {
-    font-size: 16px;
-line-height: 1.86;
+  }
+  @media screen and (min-width: 1280px) {
     width: 750px;
+    font-size: 16px;
+    line-height: 1.86;
     letter-spacing: 0.04em;
-    background-image: url("../images/linedesktop.svg"), url("../images/linedesktop.svg");
+    background-image:
+      url('../images/linedesktop.svg'), url('../images/linedesktop.svg');
     background-repeat: no-repeat;
     background-position-y: 30.5px, 61px;
-}
+  }
 }
 .comment_card_point {
-    font-family: var(--font-family);
-font-weight: 500;
-font-size: 20px;
-line-height: 1.86;
-text-align: center;
-color: #000;
-@media screen and (min-width: 768px) {
-
-}
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.86;
+  text-align: center;
+  color: #000;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 20px;
+  }
 }

@@ -1,17 +1,17 @@
 .tradition {
-    padding-top: 125px;
-    background-color: #fff5f6;
-    background-image: url("../images/milkthememobile@1x.png");
-    background-position-y: 600px;
-    background-repeat: no-repeat;
-        background-size: 320px;
-        max-width: 320px;
-            margin-inline: auto;
-        @media screen and (min-device-pixel-ratio: 1),
+  max-width: 320px;
+  margin-inline: auto;
+  padding-top: 125px;
+  background-color: #fff5f6;
+  background-image: url('../images/milkthememobile@1x.png');
+  background-position-y: 600px;
+  background-repeat: no-repeat;
+  background-size: 320px;
+  @media screen and (min-device-pixel-ratio: 1),
     (min-resolution: 960dpi),
     (min-resolution: 2dppx),
     (min-width: 320px) {
-    background-image: url("../images/milkthememobile@1x.png");
+    background-image: url('../images/milkthememobile@1x.png');
     background-position-y: 600px;
     background-size: 320px;
   }
@@ -19,212 +19,208 @@
     (min-resolution: 1920dpi),
     (min-resolution: 4dppx),
     (min-width: 320px) {
-    background-image: url("../images/milkthememobile@2x.png");
-        background-size: 320px;
-    }
-    @media screen and (min-width: 768px) {
-        padding-top: 130px;
-        background-image: none;
-            max-width: 768px;
-    }
-    @media screen and (min-width: 1280px) {
-        padding-top: 125px;
-        background-image: url("../images/milkthemedesktop@1x.png");
-            max-width: 1280px;
-        @media screen and (min-device-pixel-ratio: 1),
-    (min-resolution: 960dpi),
-    (min-resolution: 2dppx),
-    (min-width: 1280px) {
-    background-image: url("../images/milkthemedesktop@1x.png");
-        background-size: 1280px;
-        background-position-y: 342px;
+    background-image: url('../images/milkthememobile@2x.png');
+    background-size: 320px;
   }
-  @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 1920dpi),
-    (min-resolution: 4dppx),
-    (min-width: 1280px) {
-    background-image: url("../images/milkthemedesktop@2x.png");
-            background-size: 1280px;
-            background-position-y: 342px;
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding-top: 130px;
+    background-image: none;
+  }
+  @media screen and (min-width: 1280px) {
+    max-width: 1280px;
+    padding-top: 125px;
+    background-image: url('../images/milkthemedesktop@1x.png');
+    @media screen and (min-device-pixel-ratio: 1),
+      (min-resolution: 960dpi),
+      (min-resolution: 2dppx),
+      (min-width: 1280px) {
+      background-image: url('../images/milkthemedesktop@1x.png');
+      background-size: 1280px;
+      background-position-y: 342px;
     }
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 1920dpi),
+      (min-resolution: 4dppx),
+      (min-width: 1280px) {
+      background-image: url('../images/milkthemedesktop@2x.png');
+      background-size: 1280px;
+      background-position-y: 342px;
     }
+  }
 }
 .tradition_title {
-    font-family: var(--second-family);
-font-weight: 400;
-font-size: 18px;
-text-transform: uppercase;
-text-align: center;
-color: #ffa5ba;
-@media screen and (min-width: 768px) {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffa5ba;
+  @media screen and (min-width: 768px) {
     font-size: 26px;
-}
-@media screen and (min-width: 1280px) {
+  }
+  @media screen and (min-width: 1280px) {
     font-size: 30px;
-}
+  }
 }
 .tradition_big_title {
-font-family: var(--second-family);
-font-weight: 400;
-font-size: 34px;
-letter-spacing: 0.04em;
-text-transform: uppercase;
-text-align: center;
-color: #d41443;
-@media screen and (min-width: 768px) {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 34px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #d41443;
+  @media screen and (min-width: 768px) {
     font-size: 48px;
-}
-@media screen and (min-width: 1280px) {
+  }
+  @media screen and (min-width: 1280px) {
     font-size: 58px;
     letter-spacing: 0.06em;
-}
+  }
 }
 .tradition_card {
-    margin-bottom: 39px;
-    @media screen and (min-width: 768px) {
-        margin-bottom: 0;
-    }
+  margin-bottom: 39px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
 }
 .tradition_card_container {
-    display: block;
-    @media screen and (min-width: 768px) {
-        display: flex;
-                column-gap: 17px;
-    }
-    @media screen and (min-width: 1280px) {
-        display: flex;
-                column-gap: 74px;
-    }
+  display: block;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    column-gap: 17px;
+  }
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    column-gap: 74px;
+  }
 }
 .tradition_card_area_container {
-    display: block;
-    @media screen and (min-width: 768px) {
-        width: 340px;
-        margin-top: 50px;
-    }
-    @media screen and (min-width: 1280px) {
-        width: 463px;
-        margin-top: 0;
-    }
+  display: block;
+  @media screen and (min-width: 768px) {
+    width: 340px;
+    margin-top: 50px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 463px;
+    margin-top: 0;
+  }
 }
 .tradition_card_image {
-    margin-bottom: 46px;
+  margin-bottom: 46px;
 }
 .tradition_card_text {
-    font-family: var(--font-family);
-font-weight: 500;
-font-size: 12px;
-line-height: 1.62;
-color: #000;
-margin-bottom: 47px;
-@media screen and (min-width: 768px) {
-    font-size: 14px;
+  margin-bottom: 47px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.62;
+  color: #000;
+  @media screen and (min-width: 768px) {
     margin-bottom: 49px;
-}
+    font-size: 14px;
+  }
 }
 .tradition_card_text2 {
-    font-family: var(--font-family);
-font-weight: 500;
-font-size: 12px;
-line-height: 1.62;
-color: #907e82;
-margin-bottom: 47px;
-@media screen and (min-width: 768px) {
-    font-size: 14px;
+  margin-bottom: 47px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.62;
+  color: #907e82;
+  @media screen and (min-width: 768px) {
     margin-bottom: 49px;
-}
+    font-size: 14px;
+  }
 }
 .tradition_card_button {
-    border-radius: 22px;
-width: 176px;
-height: 44px;
-font-family: var(--font-family);
-font-weight: 700;
-font-size: 16px;
-text-align: center;
-color: #d41443;
-border: none;
-background: #fff;
-margin-bottom: 39px;
-    column-gap: 13.62px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-@media screen and (min-width: 768px) {
+  width: 176px;
+  height: 44px;
+  border: none;
+  border-radius: 22px;
+  margin-bottom: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 13.62px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #d41443;
+  background: #fff;
+  @media screen and (min-width: 768px) {
     margin-bottom: 66px;
-}
+  }
 }
 .tradition_card_button_icon {
-    stroke: var(--color1, #d41443);
+  stroke: var(--color1, #d41443);
 }
 .tradition_list {
-    display: flex;
-    flex-direction: column;
-    row-gap: 38px;
-    @media screen and (min-width: 768px) {
-        flex-direction: row;
-        column-gap: 60px;
-    }
-    @media screen and (min-width: 1280px) {
-        column-gap: 30px;
-    }
+  display: flex;
+  flex-direction: column;
+  row-gap: 38px;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    column-gap: 60px;
+  }
+  @media screen and (min-width: 1280px) {
+    column-gap: 30px;
+  }
 }
 .tradition_list_item_image {
-    margin-bottom: 16px;
-    @media screen and (min-width: 768px) {
-        margin-bottom: 36px;
-    }
-    @media screen and (min-width: 1280px) {
-        margin-bottom: 40px;
-    }
+  margin-bottom: 16px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 36px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 40px;
+  }
 }
 .tradition_list_item_number {
-    font-family: var(--second-family);
-font-weight: 400;
-font-size: 36px;
-letter-spacing: 0.04em;
-color: #d41443;
-margin-top: 16px;
-margin-bottom: 16px;
-@media screen and (min-width: 768px) {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0.04em;
+  color: #d41443;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  @media screen and (min-width: 768px) {
     margin-top: 36px;
-        margin-bottom: 13px;
-        font-size: 48px;
-    }
-    @media screen and (min-width: 1280px) {
-        margin-top: 40px;
-        font-size: 58px;
-    }
+    margin-bottom: 13px;
+    font-size: 48px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-top: 40px;
+    font-size: 58px;
+  }
 }
 .tradition_list_item_text {
-    font-family: var(--font-family);
-font-weight: 700;
-font-size: 12px;
-line-height: 1.7;
-color: #000;
-@media screen and (min-width: 768px) {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.7;
+  color: #000;
+  @media screen and (min-width: 768px) {
     font-size: 14px;
-}
-@media screen and (min-width: 1280px) {
+  }
+  @media screen and (min-width: 1280px) {
     font-size: 16px;
     line-height: 1.76;
     letter-spacing: 0.02em;
-}
+  }
 }
 .tradition_image {
-    position: relative;
-    display: block;
-    width: 320px;
-    top: 73px;
-    right: 35px;
-    @media screen and (min-width: 768px) {
-        width: 768px;
-        top: 159px;
-        right: 49px;
-    }
-    @media screen and (min-width: 1280px) {
-        width: 1280px;
-        top: 258px;
-        right: 130px;
-    }
+  position: relative;
+  width: 320px;
+  display: block;
+  top: 73px;
+  right: 35px;
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    top: 159px;
+    right: 49px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 1280px;
+    top: 258px;
+    right: 130px;
+  }
 }

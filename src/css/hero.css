@@ -1,31 +1,40 @@
 .hero {
-    background-color: #ffb8ca;
-    background-image: url("../images/icecreammobile@1x.png"), url("../images/circlemobile@1x.png");
-    background-repeat: no-repeat;
-    background-position-x: 125px, 50px;
-    background-position-y: bottom, 0px;
-    padding-top: 110px;
-    padding-bottom: 160px;
-    margin-inline: auto;
-    max-width: 320px;
-    @media screen and (min-device-pixel-ratio: 1),
+  max-width: 320px;
+  background-color: #ffb8ca;
+  background-image:
+    url('../images/icecreammobile@1x.png'), url('../images/circlemobile@1x.png');
+  background-repeat: no-repeat;
+  background-position-x: 125px, 50px;
+  background-position-y: bottom, 0px;
+  padding-top: 110px;
+  padding-bottom: 160px;
+  margin-inline: auto;
+  @media screen and (min-device-pixel-ratio: 1),
     (min-resolution: 960dpi),
     (min-resolution: 2dppx),
     (min-width: 320px) {
-    background-image: url("../images/icecreammobile@1x.png"), url("../images/circlemobile@1x.png");
+    background-image:
+      url('../images/icecreammobile@1x.png'),
+      url('../images/circlemobile@1x.png');
   }
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 1920dpi),
     (min-resolution: 4dppx),
     (min-width: 320px) {
-    background-image: url("../images/icecreammobile@2x.png"), url("../images/circlemobile@2x.png");
+    background-image:
+      url('../images/icecreammobile@2x.png'),
+      url('../images/circlemobile@2x.png');
     background-size: 171px, 270px;
   }
-    @media screen and (min-width: 768px) {
-        background-image: url("../images/icecreamtablet@1x.png"), url("../images/circletablet@1x.png");
-        background-repeat: no-repeat;
+  @media screen and (min-width: 768px) {
+    background-image:
+      url('../images/icecreamtablet@1x.png'),
+      url('../images/circletablet@1x.png');
+    background-repeat: no-repeat;
     background-position-x: 375px, 300px;
-    background-position-y: bottom, -45px;
+    background-position-y:
+      bottom,
+      -45px;
     position: relative;
     bottom: 0px;
     height: 312px;
@@ -33,24 +42,32 @@
     padding-top: 25px;
     max-width: 768px;
     @media screen and (min-device-pixel-ratio: 1),
-    (min-resolution: 960dpi),
-    (min-resolution: 2dppx),
-    (min-width: 768px) {
-    background-image: url("../images/icecreamtablet@1x.png"), url("../images/circletablet@1x.png");
-  }
-  @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 1920dpi),
-    (min-resolution: 4dppx),
-    (min-width: 768px) {
-    background-image: url("../images/icecreamtablet@2x.png"), url("../images/circletablet@2x.png");
-    background-size: 144px, 324px;
-  }
+      (min-resolution: 960dpi),
+      (min-resolution: 2dppx),
+      (min-width: 768px) {
+      background-image:
+        url('../images/icecreamtablet@1x.png'),
+        url('../images/circletablet@1x.png');
     }
-    @media screen and (min-width: 1280px) {
-        background-image: url("../images/icecreamdesktop@1x.png"), url("../images/circledesktop@1x.png");
-        background-repeat: no-repeat;
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 1920dpi),
+      (min-resolution: 4dppx),
+      (min-width: 768px) {
+      background-image:
+        url('../images/icecreamtablet@2x.png'),
+        url('../images/circletablet@2x.png');
+      background-size: 144px, 324px;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    background-image:
+      url('../images/icecreamdesktop@1x.png'),
+      url('../images/circledesktop@1x.png');
+    background-repeat: no-repeat;
     background-position-x: 575px, 425px;
-    background-position-y: bottom, -25px;
+    background-position-y:
+      bottom,
+      -25px;
     position: relative;
     bottom: 0px;
     height: 577px;
@@ -58,224 +75,222 @@
     padding-top: 74px;
     max-width: 1280px;
     @media screen and (min-device-pixel-ratio: 1),
-    (min-resolution: 960dpi),
-    (min-resolution: 2dppx),
-    (min-width: 320px) {
-    background-image: url("../images/icecreamdesktop@1x.png"), url(../images/circledesktop@1x.png);
-  }
-  @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 1920dpi),
-    (min-resolution: 4dppx),
-    (min-width: 320px) {
-    background-image: url("../images/icecreamdesktop@2x.png"), url(../images/circledesktop@2x.png);
-    background-size: 236px, 538px;
-  }
+      (min-resolution: 960dpi),
+      (min-resolution: 2dppx),
+      (min-width: 320px) {
+      background-image:
+        url('../images/icecreamdesktop@1x.png'),
+        url(../images/circledesktop@1x.png);
     }
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 1920dpi),
+      (min-resolution: 4dppx),
+      (min-width: 320px) {
+      background-image:
+        url('../images/icecreamdesktop@2x.png'),
+        url(../images/circledesktop@2x.png);
+      background-size: 236px, 538px;
+    }
+  }
 }
 .hero_main_title {
-   font-family: var(--second-family);
-font-weight: 400;
-font-size: 26px;
-letter-spacing: 0.04em;
-text-transform: uppercase;
-color: #fff;
-width: 218px;
-height: 106px;
-margin-bottom: 19px;
-@media screen and (min-width: 768px) {
-font-size: 22px;
-width: 162px;
-height: 80px;
-}
-@media screen and (min-width: 1280px) {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 26px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  width: 218px;
+  height: 106px;
+  margin-bottom: 19px;
+  @media screen and (min-width: 768px) {
+    font-size: 22px;
+    width: 162px;
+    height: 80px;
+  }
+  @media screen and (min-width: 1280px) {
     font-size: 38px;
-width: 277px;
-height: 137px;
-}
+    width: 277px;
+    height: 137px;
+  }
 }
 .hero_main_title span {
-font-size: 48px;
-line-height: 0.96;
-color: #d41443;
-@media screen and (min-width: 768px) {
+  font-size: 48px;
+  line-height: 0.96;
+  color: #d41443;
+  @media screen and (min-width: 768px) {
     font-size: 34px;
-line-height: 0.9;
-color: #d41443;
-}
-@media screen and (min-width: 1280px) {
+    line-height: 0.9;
+    color: #d41443;
+  }
+  @media screen and (min-width: 1280px) {
     font-size: 58px;
-}
+  }
 }
 .hero_main_buttons {
-    @media screen and (min-width: 768px) {
-        margin-bottom: 19px;
-    }
-    @media screen and (min-width: 1280px) {
-        margin-bottom: 25px;
-    }
+  @media screen and (min-width: 768px) {
+    margin-bottom: 19px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 25px;
+  }
 }
 .hero_main_buttons_button {
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 8px;
-text-align: center;
-color: #fff;
-border-radius: 20px;
-align-items: center;
-justify-content: center;
-border: none;
-@media screen and (min-width: 1280px) {
-font-size: 14px;
-}
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 8px;
+  text-align: center;
+  color: #fff;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  @media screen and (min-width: 1280px) {
+    font-size: 14px;
+  }
 }
 .hero_main_buttons_button:nth-child(1) {
-    width: 61.2px;
-height: 24px;
-background-color: #d41443;
-color: #fff;
-@media screen and (min-width: 1280px) {
+  width: 61.2px;
+  height: 24px;
+  background-color: #d41443;
+  color: #fff;
+  @media screen and (min-width: 1280px) {
     width: 102px;
-height: 40px;
-}
+    height: 40px;
+  }
 }
 .hero_main_buttons_button:nth-child(2) {
-width: 82.8px;
-height: 24px;
-background-color: #fff;
-    color: #d41443;
-    @media screen and (min-width: 1280px) {
+  width: 82.8px;
+  height: 24px;
+  background-color: #fff;
+  color: #d41443;
+  @media screen and (min-width: 1280px) {
     width: 138px;
     height: 40px;
-            margin-left: 15px;
-}
+    margin-left: 15px;
+  }
 }
 .hero_icecream {
-    display: none;
+  display: none;
 }
 .hero_bioeco {
-    display: none;
-    @media screen and (min-width: 768px) {
-        display: flex;
-    }
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }
 .hero_bioeco_container {
-    width: 115px;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    @media screen and (min-width: 1280px) {
-        width: 200px;
-    }
+  width: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  @media screen and (min-width: 1280px) {
+    width: 200px;
+  }
 }
 .hero_bioeco_image {
-    width: 124px;
-    height: 126px;
-    @media screen and (min-width: 1280px) {
-        width: 188px;
-        height: 191px;
-    }
+  width: 124px;
+  height: 126px;
+  @media screen and (min-width: 1280px) {
+    width: 188px;
+    height: 191px;
+  }
 }
 .hero_bioeco_button {
-    border: none;
-    background-color: transparent;
-    width: 30px;
-    height: 30px;
+  border: none;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
 }
 .hero_number {
-    display: none;
-    @media screen and (min-width: 768px) {
-        display: flex;
-        flex-direction: column;
-        justify-content: right;
-        position: absolute;
-        top: 11px;
-        right: 34px;
-    }
-    @media screen and (min-width: 1280px) {
-        top: 74px;
-        right: 145px;
-    }
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    position: absolute;
+    top: 11px;
+    right: 34px;
+  }
+  @media screen and (min-width: 1280px) {
+    top: 74px;
+    right: 145px;
+  }
 }
 .hero_number_list {
-    flex-direction: column;
-    display: flex;
-    row-gap: 13px;
-    margin-bottom: 56px;
-    @media screen and (min-width: 1280px) {
-        margin-bottom: 92px;
-    }
+  flex-direction: column;
+  display: flex;
+  row-gap: 13px;
+  margin-bottom: 56px;
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 92px;
+  }
 }
 .hero_number_list_item {
-    text-align: right;
+  text-align: right;
 }
 .hero_number_list_item_icon {
-    position: absolute;
-    z-index: -1;
-    @media screen and (min-width: 768px) {
-        width: 16px;
-        height: 16px;
-    }
-    @media screen and (min-width: 1280px) {
-        width: 30px;
-        height: 30px;
-    }
+  position: absolute;
+  z-index: -1;
+  @media screen and (min-width: 768px) {
+    width: 16px;
+    height: 16px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 30px;
+    height: 30px;
+  }
 }
 .hero_number_list_item:nth-child(1) .hero_number_list_item_icon {
-    top: 0;
-    right: -8px;
-    @media screen and (min-width: 1280px) {
-        top: -5px;
+  top: 0;
+  right: -8px;
+  @media screen and (min-width: 1280px) {
+    top: -5px;
     right: -14px;
-    }
+  }
 }
 .hero_number_list_item:nth-child(2) .hero_number_list_item_icon {
-    top: 62px;
-    right: -8px;
-    @media screen and (min-width: 1280px) {
-        top: 92px;
+  top: 62px;
+  right: -8px;
+  @media screen and (min-width: 1280px) {
+    top: 92px;
     right: -14px;
-    }
+  }
 }
 .hero_number_list_item_number {
-    
 }
 .hero_bioeco_text {
-    font-family: var(--font-family);
-font-weight: 400;
-font-size: 8px;
-line-height: 1.4;
-color: #fff;
-@media screen and (min-width: 1280px) {
-font-size: 14px;
-}
+  font-size: 8px;
+  line-height: 1.4;
+  color: #fff;
+  @media screen and (min-width: 1280px) {
+    font-size: 14px;
+  }
 }
 .hero_number_list_item_number {
-    font-family: var(--second-family);
-font-weight: 400;
-font-size: 28px;
-letter-spacing: 0.04em;
-text-transform: uppercase;
-text-align: right;
-color: #d41443;
-@media screen and (min-width: 1280px) {
-font-size: 46px;
-}
+  font-family: var(--second-family);
+  font-size: 28px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: right;
+  color: #d41443;
+  @media screen and (min-width: 1280px) {
+    font-size: 46px;
+  }
 }
 .hero_number_list_item_text {
-    font-family: var(--font-family);
-font-weight: 400;
-font-size: 8px;
-text-align: right;
-color: #fff;
-@media screen and (min-width: 1280px) {
-font-size: 14px;
-}
+  font-size: 8px;
+  text-align: right;
+  color: #fff;
+  @media screen and (min-width: 1280px) {
+    font-size: 14px;
+  }
 }
 .hero_number_taste_image {
-    width: 168px;
-height: 133px;
-@media screen and (min-width: 1280px) {
+  width: 168px;
+  height: 133px;
+  @media screen and (min-width: 1280px) {
     width: 293px;
-height: 232px;
-}
+    height: 232px;
+  }
 }
